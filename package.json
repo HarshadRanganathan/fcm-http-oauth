@@ -1,0 +1,14 @@
+{
+  "name": "fcm-http-oauth",
+  "version": "1.0.0",
+  "description": "Generate oauth key using your service account for authorizing requests to FCM app server",
+  "main": "oauth.js",
+  "scripts": {
+    "oauth": "node oauth.js"
+  },
+  "author": "Harshad Ranganathan",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^36.0.0"
+  }
+}
